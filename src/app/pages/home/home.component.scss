@@ -1,0 +1,58 @@
+.hero {
+  cursor: pointer;
+
+  &__img {
+    height: 88vh;
+    background-image: url("./../../../assets/projetos/ape-ds/principal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    &__img {
+      height: 40vh;
+      background-size: cover;
+    }
+  }
+}
+
+.projetos {
+  cursor: pointer;
+
+  &__img {
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.sobre {
+  &__img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.instagram {
+  .highlight {
+    font-weight: 700;
+    color: #B26345;
+  }
+
+  &__img-container {
+    overflow: hidden;
+  }
+
+  &__img {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+}

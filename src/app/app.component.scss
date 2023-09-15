@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #5f6546 !important;
+}
+
+.contato {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #b26345;
+  position: relative;
+
+  &__logo {
+    height: 6rem;
+    width: auto;
+  }
+
+  &__icons > a {
+    color: #f2ad6a;
+    font-size: 2rem;
+  }
+
+  &__icons > a:hover {
+    color: white;
+  }
+
+  &__links {
+    ul {
+      list-style: none;
+    }
+  }
+
+  &__go-to-top{
+    position: absolute;
+    margin: 2rem;
+  }
+}

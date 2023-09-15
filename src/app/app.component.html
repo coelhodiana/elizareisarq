@@ -1,0 +1,89 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="./../../../assets/logo.svg" width="auto" height="50" alt="" />
+  </a>
+
+  <button
+    class="navbar-toggler white"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarScroll"
+    aria-controls="navbarScroll"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul
+      class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-end w-100"
+    >
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#projetos">Projetos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#sobre">Sobre</a>
+      </li>
+      <li
+        class="nav-item"
+        routerLink="contato"
+        routerLinkActive="router-link-active"
+      >
+        <a class="nav-link text-white contato">Contato</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="container-fluid footer">
+  <div class="container py-5">
+    <div class="row mb-5">
+      <img class="footer__logo" src="./../../../assets/logotipo.svg" />
+    </div>
+    <div class="row mt-4">
+      <div class="col-sm-8 d-flex gap-1 p-0 footer__icons">
+        <a
+          class="pr-4"
+          target="_blank"
+          href="https://instagram.com/elizareisarquiteta?igshid=NGVhN2U2NjQ0Yg=="
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a
+          class="pr-4"
+          target="_blank"
+          href="https://www.tiktok.com/@elizareisarquiteta?_t=8fefkjDzEIf&_r=1"
+          ><i class="bi bi-tiktok"></i
+        ></a>
+        <a
+          class="pr-4"
+          target="_blank"
+          href="https://youtube.com/@elizareisarquiteta?si=071yIkM77XJoCd0U"
+          ><i class="bi bi-youtube"></i
+        ></a>
+        <a class="pr-4" target="_blank" href="https://pin.it/7Mou3pN"
+          ><i class="bi bi-pinterest"></i
+        ></a>
+      </div>
+
+      <div class="col-sm-4 footer__links">
+        <ul>
+          <li class="mb-4">
+            <a class="text-white" href="#projetos">projetos</a>
+          </li>
+          <li class="mb-4">
+            <a class="text-white" href="#sobre">sobre</a>
+          </li>
+          <li class="mb-4">
+            <a class="text-white" href="#instagram">instagram</a>
+          </li>
+          <li class="mb-4">
+            <a class="text-white" routerLink="contato">contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
