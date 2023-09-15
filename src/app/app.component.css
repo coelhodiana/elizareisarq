@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #5f6546 !important;
+}
+
+.contato {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #b26345;
+  position: relative;
+}
+.footer__logo {
+  height: 6rem;
+  width: auto;
+}
+.footer__icons > a {
+  color: #f2ad6a;
+  font-size: 2rem;
+}
+.footer__icons > a:hover {
+  color: white;
+}
+.footer__links ul {
+  list-style: none;
+}
+.footer__go-to-top {
+  position: absolute;
+  margin: 2rem;
+}/*# sourceMappingURL=app.component.css.map */

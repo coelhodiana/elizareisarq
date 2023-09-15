@@ -1,0 +1,51 @@
+.hero {
+  cursor: pointer;
+}
+.hero__img {
+  height: 88vh;
+  background-image: url("./../../../assets/projetos/ape-ds/principal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .hero__img {
+    height: 40vh;
+    background-size: cover;
+  }
+}
+.projetos {
+  cursor: pointer;
+}
+.projetos__img {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.sobre__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.instagram .highlight {
+  font-weight: 700;
+  color: #B26345;
+}
+.instagram__img-container {
+  overflow: hidden;
+}
+.instagram__img {
+  height: auto;
+  width: 100%;
+  aspect-ratio: 1/1;
+}/*# sourceMappingURL=home.component.css.map */
